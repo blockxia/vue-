@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  outline: none;
+  -webkit-top-hightlight-color: rgba(0, 0, 0, 0);
+}
+#app {
+  position: relative;
+  box-sizing: border-box;
+}
+#app > .navbar {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  background-color: #00A978!important;
+  padding: 0;
+}
+#app > .navbar > .navbar-brand {
+  display: inline-block;
+  padding-top: .3125rem;
+  padding-bottom: .3125rem;
+  padding-left: 5rem;
+  color: white;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+#app > .navbar > .form-inline > .btn-outline-success {
+  padding-left: -5rem;
+  background-color: transparent;
+  background-image: none;
+  border-color: transparent;
+}
+#app > .navbar > .form-inline > .btn-outline-success > a {
+  color: #fff;
+}
+#app > .content {
+  margin-top: 2.5rem;
+  display: flex;
+}
+#app > .content > .item {
+  text-align: center;
+  margin: 0.5rem;
+  flex: 1;
+}
+#app > .content > .item > img {
+  width: 100%;
+}
+#app > .content2 {
+  display: flex;
+}
+#app > .content2 > .item {
+  text-align: center;
+  margin: 0.5rem;
+  flex: 1;
+}
+#app > .content2 > .item > img {
+  width: 100%;
+}
+#app > .shangjia {
+  height: 9rem;
+  overflow: hidden;
+}
+#app > .shangjia > .gray {
+  height: 1rem;
+  background: #eee;
+}
+#app > .shangjia > .left {
+  float: left;
+  width: 25%;
+}
+#app > .shangjia > .left > img {
+  width: 100%;
+}
+#app > .shangjia > .center {
+  margin-left: 28%;
+  margin-right: 25%;
+}
+#app > .shangjia > .center > ul > li {
+  float: left;
+}
+#app > .shangjia > .right {
+  width: 25%;
+  float: right;
+  height: 100%;
+}
+#app > .shangjia1 {
+  margin-top: 1rem;
+}
+#app > .shangjia1 > .gray {
+  height: 1px;
+  background: #eee;
+}
+#app > .shangjia1 > .left {
+  float: left;
+  width: 25%;
+}
+#app > .shangjia1 > .left > img {
+  width: 100%;
+}
+#app > .shangjia1 > .center {
+  margin-left: 28%;
+  margin-right: 25%;
+}
+#app > .shangjia1 > .center > ul > li {
+  float: left;
+}
+#app > .shangjia1 > .right {
+  width: 25%;
+  float: right;
+  height: 100%;
+}
+#app > .shangjia2 {
+  margin-top: 1rem;
+}
+#app > .shangjia2 > .gray {
+  height: 1px;
+  background: #eee;
+}
+#app > .shangjia2 > .left {
+  float: left;
+  width: 25%;
+}
+#app > .shangjia2 > .left > img {
+  width: 100%;
+}
+#app > .shangjia2 > .center {
+  margin-left: 28%;
+  margin-right: 25%;
+}
+#app > .shangjia2 > .center > ul > li {
+  float: left;
+}
+#app > .shangjia2 > .right {
+  width: 25%;
+  float: right;
+  height: 100%;
+}
+#app > .shangjia3 {
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+}
+#app > .shangjia3 > .gray {
+  height: 1px;
+  background: #eee;
+}
+#app > .shangjia3 > .left {
+  float: left;
+  width: 25%;
+}
+#app > .shangjia3 > .left > img {
+  width: 100%;
+}
+#app > .shangjia3 > .center {
+  margin-left: 28%;
+  margin-right: 25%;
+}
+#app > .shangjia3 > .center > ul > li {
+  float: left;
+}
+#app > .shangjia3 > .right {
+  width: 25%;
+  float: right;
+  height: 100%;
+}
+#app > .Mfooter {
+  background: white;
+  border-top: solid 1px #CCCCCC;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 3rem;
+  padding-top: 4px;
+}
+#app > .Mfooter > .footer {
+  text-align: center;
+  display: flex;
+}
+#app > .Mfooter > .footer:hover > .footer > .lastfooter > a > span {
+  color: #00A978;
+}
+#app > .Mfooter > .footer > .lastfooter {
+  flex: 1;
+}
+#app > .Mfooter > .footer > .lastfooter > a {
+  color: #aaa;
+}
+#app > .Mfooter > .footer > .lastfooter > a.active {
+  color: #00A978;
+}
