@@ -1,0 +1,245 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html,body{
+  height: 100%;
+}
+ul,li{
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  outline: none;
+  -webkit-top-hightlight-color: rgba(0, 0, 0, 0);
+}
+#app{
+  position: relative;
+  box-sizing: border-box;
+  &>.navbar{
+    top: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #00A978!important;
+    padding: 0;
+    &>.navbar-brand {
+      display: inline-block;
+      padding-top: .3125rem;
+      padding-bottom: .3125rem;
+      padding-left: 5rem;
+     color: white;
+      font-size: 1.25rem;
+      line-height: inherit;
+      white-space: nowrap;
+    }
+    &>.form-inline{
+      &>.btn-outline-success {
+
+        padding-left: -5rem;
+        background-color: transparent;
+        background-image: none;
+        border-color: transparent;
+        &>a{
+          color: #fff;
+        }
+      }
+    }
+  }
+  &>.content{
+        margin-top:2.5rem;
+        display: flex;
+        &>.item{
+          text-align: center;
+          margin:0.5rem;
+          flex: 1;
+            &>img{
+              width: 100%;
+            }
+
+        }
+  }
+  &>.content2{
+    //margin-top: -1rem;
+    display: flex;
+    &>.item{
+      text-align: center;
+      margin:0.5rem;
+      flex: 1;
+      &>img{
+        width: 100%;
+      }
+
+    }
+  }
+  &>.shangjia{
+    &>.gray{
+      height: 1rem;
+      background: #eee;
+    }
+    //&>p{
+    //  margin-top: 2rem;
+    //}
+    height: 9rem;
+    //background: pink;
+    overflow: hidden;
+    &>.left{
+      float: left;
+      width: 25%;
+      &>img{
+        width: 100%;
+
+      }
+    }
+
+    &>.center{
+      //text-align: center;
+        margin-left: 28%;
+        margin-right: 25%;
+      &>ul{
+        &>li{
+          float: left;
+        }
+      }
+
+    }
+    &>.right{
+      width: 25%;
+     float: right;
+      height: 100%;
+    }
+  }
+  &>.shangjia1{
+    margin-top: 1rem;
+    &>.gray{
+      height: 1px;
+      background: #eee;
+    }
+    &>.left{
+      float: left;
+      width: 25%;
+      &>img{
+        width: 100%;
+
+      }
+    }
+
+    &>.center{
+      //text-align: center;
+      margin-left: 28%;
+      margin-right: 25%;
+      &>ul{
+        &>li{
+          float: left;
+        }
+      }
+
+    }
+    &>.right{
+      width: 25%;
+      float: right;
+      height: 100%;
+    }
+
+  }
+  &>.shangjia2{
+    margin-top: 1rem;
+    &>.gray{
+      height: 1px;
+      background: #eee;
+    }
+    &>.left{
+      float: left;
+      width: 25%;
+      &>img{
+        width: 100%;
+      }
+    }
+
+    &>.center{
+      //text-align: center;
+      margin-left: 28%;
+      margin-right: 25%;
+      &>ul{
+        &>li{
+          float: left;
+        }
+      }
+
+    }
+    &>.right{
+      width: 25%;
+      float: right;
+      height: 100%;
+    }
+
+  }
+  &>.shangjia3{
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+    &>.gray{
+      height: 1px;
+      background: #eee;
+    }
+    &>.left{
+      float: left;
+      width: 25%;
+      &>img{
+        width: 100%;
+
+      }
+    }
+
+    &>.center{
+      //text-align: center;
+      margin-left: 28%;
+      margin-right: 25%;
+      &>ul{
+        &>li{
+          float: left;
+        }
+      }
+
+    }
+    &>.right{
+      width: 25%;
+      float: right;
+      height: 100%;
+    }
+
+  }
+  &>.Mfooter{
+
+    background: white;
+    border-top: solid 1px #CCCCCC;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 3rem;
+    padding-top: 4px;
+    &>.footer{
+      &:hover {
+        & > .footer {
+          & > .lastfooter {
+            & > a {
+              & > span {
+                color: #00A978;
+              }
+            }
+          }
+        }
+      }
+      text-align: center;
+      display: flex;
+      &>.lastfooter{
+        flex: 1;
+        &>a{
+          &.active{
+            color: #00A978;
+          }
+          color: #aaa;
+
+        }
+      }
+    }
+  }
+}

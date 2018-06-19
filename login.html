@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="./css/login.css">
+
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+<div id="login">
+    <h2 class="header">硅谷外卖</h2>
+    <div class="loginSwitch">
+        <a href="./login.html">短信登录</a>
+        <a href="./password-login.html">密码登录</a>
+    </div>
+</div>
+<form>
+    <div class="form-group">
+
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="手机号">
+
+    </div>
+    <div class="form-group">
+
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="验证码">
+    </div>
+    <div class="form-check">
+
+        <label class="form-check-label" >
+            温馨提示：未注册硅谷外卖帐号的手机号，登录时将自动注册，且代表已同意
+        </label>
+    </div>
+    <button type="submit" class="btn btn-primary"><a href="./index.html">登录</a></button>
+
+    <div class="Mfooter">
+        <div class="footer">
+            <div class="lastfooter "><a  class='active'   href="./index.html">外卖</a></div>
+            <div class="lastfooter"><a  href="./saerch.html">搜索</a></div>
+            <div class="lastfooter"><a href="./login.html">订单</a></div>
+            <div class="lastfooter"><a  href="">我的</a></div>
+        </div>
+    </div>
+</form>
+<script type="text/javascript">
+    let aNodes=document.querySelectorAll('#app > .Mfooter > .footer > .lastfooter > a')
+    //     console.log(aNodes);
+    for (let i = 0; i < aNodes.length; i++) {
+        aNodes[i].addEventListener('touchend',function () {
+            aNodes[i].className=''
+            this.className='active'
+        })
+    }
+</script>
+</body>
+</html>
